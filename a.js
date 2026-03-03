@@ -1,4 +1,6 @@
-
+function alertSomething() {
+    alert("Hello, World!");
+}
 
 function doSomething() {
     console.log("Doing something...");
@@ -17,5 +19,5 @@ function doSomething() {
     })
     
 }
-
+alertSomething()
 doSomething()
